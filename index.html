@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness</title>
+    <style>
+        body{
+            /*reset*/
+            margin: 0px;
+            padding: 0px;
+            background: url('boxer.jpg') no-repeat;
+            background-size: 1960px 1000px;
+            color: whitesmoke;
+            font-family: 'Chivo Mono', monospace;
+        }
+
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .left img{
+            width: 88px;
+            height: 47px;
+            filter: invert(100%);
+        }
+
+        .left div{
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        .mid{
+            display: block;
+            width: 40%;
+            margin: -6px auto;
+        }
+
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 3px;
+        }
+
+        .nav{
+            display: inline-block;
+        }
+
+        .nav li{
+            display: inline-block;
+            list-style: none;
+            font-size: 20px;
+        }
+
+        .nav li a{
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 1px 30px;
+        }
+
+        .nav li a:hover, .nav li a.active{
+            text-decoration: none;
+            color: rgb(151, 151, 151);
+        }
+
+        .btn{
+            background: rgb(43, 42, 42);
+            font-family: 'Chivo Mono', monospace;
+            border-radius: 7px;
+            padding: 9px 12px;
+            margin: 10px 1px;
+            color: whitesmoke;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background: rgb(151, 151, 151);
+            text-decoration: none;
+        }
+
+        .btn a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .btn1{
+            background: rgb(70, 69, 69);
+            font-family: 'Chivo Mono', monospace;
+            border: none;
+            border-radius: 7px;
+            padding: 9px 12px;
+            margin: 10px 1px;
+            color: whitesmoke;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn1:hover{
+            background: rgb(151, 151, 151);
+            text-decoration: none;
+        }
+
+        .btn1 a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .main{
+            background-color: rgb(40, 39, 39);
+            border: none;
+            border-radius: 10px;
+            width: 32%;
+            margin: 10px 10px;
+            padding: 5px 5px 5px 33px;
+            position: absolute;
+            top: 69px;
+            left: 983px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo4.png" alt="">
+            <div>Shreyash</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="index.html" class="active" target="_blank">Home</a></li>
+                <li><a href="https://r.mtdv.me/M8oigmDA9I" target="_blank">About</a></li>
+                <li><a href="https://r.mtdv.me/M8oigmDA9I" target="_blank">Contact</a></li>
+                <li><a href="https://r.mtdv.me/M8oigmDA9I" target="_blank">Services</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="https://www.google.com/maps/place/Mount+Fuji/@35.4946396,138.7785298,9.33z/data=!4m5!3m4!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606361!4d138.7272835" target="_blank">Location</a></button>
+            <button class="btn">Connect</button>
+        </div>
+    </header>
+    <div class="main">
+        <h2>Welcome to the Fitness Club</h2>
+        <p>Here you can find the best trainers and the best equipments to train yourself.</p>
+        <p>So, what are you waiting for? Join us now!</p>
+        <button class="btn1"><a href="form.html" target="_blank">Join Now</a></button>
+    </div>
+</body>
+</html>
